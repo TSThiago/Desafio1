@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.content{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 400px;
+    width:400px;    
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.content:hover{
+    height: 630px;
+    background-color: red;
+    transition: 2s;
+
+}
+
+.image {
+    margin-top: 20px;
+    height: 350px;
+    width: 350px;
+    background-color: purple;
+}
+
+.infos{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 22px 25px 25px 25px;
+}
+
+.infos h3{
+    margin: 3px 0;
+}
